@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
 
   s.dependency 'GoogleMLKit/BarcodeScanning', '~> 6.0.0'
-  s.dependency 'GoogleDataTransport', '~> 10.0'
+  s.dependency 'GoogleDataTransport', '~> 9.4.1'
   
   s.static_framework = true
 end
