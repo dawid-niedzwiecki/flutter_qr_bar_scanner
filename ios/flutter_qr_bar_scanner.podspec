@@ -20,8 +20,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'VALID_ARCHS[sdk=iphoneos*]' => 'arm64' }
   s.swift_version = '5.0'
 
-  s.dependency 'GoogleMLKit/BarcodeScanning', '~> 6.0.0'
-  s.dependency 'GoogleDataTransport', '~> 9.4.1'
+  s.dependency 'GoogleMLKit/BarcodeScanning'
   
   s.static_framework = true
 end
